@@ -1,0 +1,108 @@
+.footer {
+  background-color: #000000;
+  margin-top: 30px;
+  padding: 30px 15px;
+}
+
+.footer__wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.footer__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.footer__item {
+  margin-right: 10px;
+  position: relative;
+  padding-right: 10px;
+}
+
+.footer__item:last-child {
+  padding-right: 0;
+}
+
+.footer__link {
+  color: $accent-color;
+
+  &:hover,
+  &:focus {
+    color: #ffffff;
+  }
+}
+
+.footer__item::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 8px;
+  width: 2px;
+  height: 2px;
+  background-color: $accent-color;
+}
+
+.footer__item:last-child::after {
+  height: 0;
+  width: 0;
+}
+
+.footer__phone {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.footer__address {
+  position: relative;
+  padding-left: 25px;
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+.footer__address::before {
+  content: "";
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  top: 0;
+  left: 7px;
+  background-image: url("../img/pin.svg");
+}
+
+.footer__worktime {
+  padding-left: 25px;
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+.footer__contacts-link {
+  padding-left: 25px;
+  font-size: 13px;
+  text-decoration: underline;
+  color: $accent-color;
+
+  &:hover,
+  &:focus {
+    color: #ffffff;
+  }
+}
+
+@media (max-width: $tablet-width) {
+  .footer__wrapper {
+    min-width: 320px;
+    flex-direction: column;
+  }
+
+  .footer__list {
+    margin-bottom: 25px;
+  }
+}

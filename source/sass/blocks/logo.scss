@@ -1,0 +1,26 @@
+.logo {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.logo__name {
+  font-family: "Play", "Arial", sans-serif;
+  font-weight: 700;
+  margin: 5px 0;
+  font-size: 35px;
+  line-height: 35px;
+}
+
+.logo__name span {
+  color: $accent-color;
+}
+
+.logo__description {
+  font-family: "Open Sans Condensed", "Arial", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0;
+}

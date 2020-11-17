@@ -1,5 +1,15 @@
-@import "normalize.scss";
 @import "variables.scss";
 @import "mixins.scss";
-@import "fonts.scss";
+@import "normalize.scss";
 @import "global.scss";
+@import "blocks/button.scss";
+@import "blocks/header.scss";
+@import "blocks/logo.scss";
+@import "blocks/phone.scss";
+@import "blocks/main-nav.scss";
+@import "blocks/banner.scss";
+@import "blocks/features.scss";
+@import "blocks/services.scss";
+@import "blocks/news.scss";
+@import "blocks/about.scss";
+@import "blocks/footer.scss";

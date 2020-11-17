@@ -1,0 +1,23 @@
+.banner {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  background-image: url("../img/banner2.png");
+  background-repeat: no-repeat;
+  background-position: center -150px;
+  background-size: cover;
+
+}
+
+.banner__wrapper {
+  min-height: 500px;
+  width: auto;
+  background: linear-gradient(90deg, rgba(40,40,40,1) 0%, rgba(40,40,40,0) 15%, rgba(40,40,40,0) 85%, rgba(40,40,40,1) 100%);
+}
+
+@media (max-width: $tablet-width) {
+  .banner {
+    min-width: 320px;
+    margin-bottom: 30px;
+  }
+}
